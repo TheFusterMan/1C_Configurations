@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="PlanOfCharacteristicKindPredefinedItems" version="2.21">
+	<Item id="1425ac7d-a0f0-403a-99af-1fa2c80ab6d8">
+		<Name>ДатаГосударственнойРегистрации</Name>
+		<Code>000000005</Code>
+		<Description>Дата государственной регистрации</Description>
+		<Type>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>Date</v8:DateFractions>
+			</v8:DateQualifiers>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="74a22054-1de3-4890-801f-84e322ca7741">
+		<Name>ДействующееВещество</Name>
+		<Code>000000004</Code>
+		<Description>Действующее вещество</Description>
+		<Type>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.ДействующиеВещества</v8:Type>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="55259fc2-25da-41dc-83a6-33768dd39a28">
+		<Name>МинимальныйВозрастПрименения</Name>
+		<Code>000000002</Code>
+		<Description>Минимальный возраст применения</Description>
+		<Type>
+			<v8:Type>xs:decimal</v8:Type>
+			<v8:NumberQualifiers>
+				<v8:Digits>2</v8:Digits>
+				<v8:FractionDigits>0</v8:FractionDigits>
+				<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+			</v8:NumberQualifiers>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="05c6c480-427e-4242-9543-86fcb0609596">
+		<Name>Назначение</Name>
+		<Code>000000003</Code>
+		<Description>Назначение</Description>
+		<Type>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.Назначения</v8:Type>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="636fff48-97ac-4fdf-a47e-7b65766fd0cd">
+		<Name>РегистрационныйНомер</Name>
+		<Code>000000006</Code>
+		<Description>Регистрационный номер</Description>
+		<Type>
+			<v8:Type>xs:string</v8:Type>
+			<v8:StringQualifiers>
+				<v8:Length>9</v8:Length>
+				<v8:AllowedLength>Fixed</v8:AllowedLength>
+			</v8:StringQualifiers>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="2698a98c-c5eb-4967-889f-4489da9206c2">
+		<Name>ФормаВыпуска</Name>
+		<Code>000000001</Code>
+		<Description>Форма выпуска</Description>
+		<Type>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.ДополнительныеСвойстваЛекарств</v8:Type>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>

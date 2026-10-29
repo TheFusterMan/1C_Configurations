@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<WindowOpeningMode>LockOwner</WindowOpeningMode>
+	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="AfterWriteAtServer">ПослеЗаписиНаСервере</Event>
+		<Event name="OnOpen">ПриОткрытии</Event>
+	</Events>
+	<ChildItems>
+		<InputField name="Код" id="1">
+			<DataPath>Объект.Code</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="КодКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="КодРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<InputField name="Наименование" id="5">
+			<DataPath>Объект.Description</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="НаименованиеКонтекстноеМеню" id="6"/>
+			<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="7"/>
+		</InputField>
+		<Table name="СписокСвойств" id="11">
+			<Representation>List</Representation>
+			<ChangeRowSet>false</ChangeRowSet>
+			<ChangeRowOrder>false</ChangeRowOrder>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>СписокСвойств</DataPath>
+			<ShowCommandBar>auto</ShowCommandBar>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="СписокСвойствКонтекстноеМеню" id="12"/>
+			<AutoCommandBar name="СписокСвойствКоманднаяПанель" id="13">
+				<Autofill>false</Autofill>
+			</AutoCommandBar>
+			<ExtendedTooltip name="СписокСвойствРасширеннаяПодсказка" id="14"/>
+			<SearchStringAddition name="СписокСвойствСтрокаПоиска" id="15">
+				<AdditionSource>
+					<Item>СписокСвойств</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="СписокСвойствСтрокаПоискаКонтекстноеМеню" id="16"/>
+				<ExtendedTooltip name="СписокСвойствСтрокаПоискаРасширеннаяПодсказка" id="17"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="СписокСвойствСостояниеПросмотра" id="18">
+				<AdditionSource>
+					<Item>СписокСвойств</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="СписокСвойствСостояниеПросмотраКонтекстноеМеню" id="19"/>
+				<ExtendedTooltip name="СписокСвойствСостояниеПросмотраРасширеннаяПодсказка" id="20"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="СписокСвойствУправлениеПоиском" id="21">
+				<AdditionSource>
+					<Item>СписокСвойств</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="СписокСвойствУправлениеПоискомКонтекстноеМеню" id="22"/>
+				<ExtendedTooltip name="СписокСвойствУправлениеПоискомРасширеннаяПодсказка" id="23"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<InputField name="СписокСвойствСвойство" id="32">
+					<DataPath>СписокСвойств.Свойство</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="СписокСвойствСвойствоКонтекстноеМеню" id="33"/>
+					<ExtendedTooltip name="СписокСвойствСвойствоРасширеннаяПодсказка" id="34"/>
+				</InputField>
+				<InputField name="СписокСвойствЗначение" id="36">
+					<DataPath>СписокСвойств.Значение</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ChoiceParameterLinks>
+						<xr:Link>
+							<xr:Name>Отбор.Владелец</xr:Name>
+							<xr:DataPath xsi:type="xs:string">Items.СписокСвойств.CurrentData.Свойство</xr:DataPath>
+							<xr:ValueChange>Clear</xr:ValueChange>
+						</xr:Link>
+					</ChoiceParameterLinks>
+					<TypeLink>
+						<xr:DataPath>Items.СписокСвойств.CurrentData.Свойство</xr:DataPath>
+						<xr:LinkItem>0</xr:LinkItem>
+					</TypeLink>
+					<ContextMenu name="СписокСвойствЗначениеКонтекстноеМеню" id="37"/>
+					<ExtendedTooltip name="СписокСвойствЗначениеРасширеннаяПодсказка" id="38"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+		<Table name="Аналоги" id="48">
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>Объект.Аналоги</DataPath>
+			<ShowCommandBar>auto</ShowCommandBar>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="АналогиКонтекстноеМеню" id="49"/>
+			<AutoCommandBar name="АналогиКоманднаяПанель" id="50"/>
+			<ExtendedTooltip name="АналогиРасширеннаяПодсказка" id="51"/>
+			<SearchStringAddition name="АналогиСтрокаПоиска" id="52">
+				<AdditionSource>
+					<Item>Аналоги</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="АналогиСтрокаПоискаКонтекстноеМеню" id="53"/>
+				<ExtendedTooltip name="АналогиСтрокаПоискаРасширеннаяПодсказка" id="54"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="АналогиСостояниеПросмотра" id="55">
+				<AdditionSource>
+					<Item>Аналоги</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="АналогиСостояниеПросмотраКонтекстноеМеню" id="56"/>
+				<ExtendedTooltip name="АналогиСостояниеПросмотраРасширеннаяПодсказка" id="57"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="АналогиУправлениеПоиском" id="58">
+				<AdditionSource>
+					<Item>Аналоги</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="АналогиУправлениеПоискомКонтекстноеМеню" id="59"/>
+				<ExtendedTooltip name="АналогиУправлениеПоискомРасширеннаяПодсказка" id="60"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<LabelField name="АналогиНомерСтроки" id="69">
+					<DataPath>Объект.Аналоги.LineNumber</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
+					<ContextMenu name="АналогиНомерСтрокиКонтекстноеМеню" id="70"/>
+					<ExtendedTooltip name="АналогиНомерСтрокиРасширеннаяПодсказка" id="71"/>
+				</LabelField>
+				<InputField name="АналогиАналог" id="73">
+					<DataPath>Объект.Аналоги.Аналог</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="АналогиАналогКонтекстноеМеню" id="74"/>
+					<ExtendedTooltip name="АналогиАналогРасширеннаяПодсказка" id="75"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:CatalogObject.Товар</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+		<Attribute name="СписокСвойств" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Список свойств</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<FillCheck>ShowError</FillCheck>
+			<Columns>
+				<Column name="Свойство" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Свойство</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:ChartOfCharacteristicTypesRef.СвойстваЛекарств</v8:Type>
+					</Type>
+				</Column>
+				<Column name="Значение" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Значение</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:TypeSet>cfg:Characteristic.СвойстваЛекарств</v8:TypeSet>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+	</Attributes>
+</Form>

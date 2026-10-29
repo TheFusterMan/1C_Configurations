@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.21">
+	<Item id="58867527-7c80-4ec1-a102-85818a241bab">
+		<Name>БизнесПроцессы</Name>
+		<Code>000000004</Code>
+		<Description>Бизнес-процессы</Description>
+		<IsFolder>true</IsFolder>
+	</Item>
+	<Item id="7c4fd59d-81f0-4ee2-9d63-9e1ae512f107">
+		<Name>БухгалтерскийУчет</Name>
+		<Code>000000002</Code>
+		<Description>Бухгалтерский учет</Description>
+		<IsFolder>true</IsFolder>
+	</Item>
+	<Item id="697f2ebc-58c6-4aeb-a6d7-d2edfcfa25e2">
+		<Name>ОперативныйУчет</Name>
+		<Code>000000001</Code>
+		<Description>Оперативный учет</Description>
+		<IsFolder>true</IsFolder>
+	</Item>
+	<Item id="a66f0fc9-0f84-41c7-8c94-294c564f4345">
+		<Name>СложныеПериодическиеРасчеты</Name>
+		<Code>000000003</Code>
+		<Description>Сложные периодические расчеты</Description>
+		<IsFolder>true</IsFolder>
+	</Item>
+	<Item id="8763c56f-898e-4839-9dce-12dff23dda96">
+		<Name>УправляемыеФормы</Name>
+		<Code>000000005</Code>
+		<Description>Управляемые формы</Description>
+		<IsFolder>true</IsFolder>
+	</Item>
+</PredefinedData>

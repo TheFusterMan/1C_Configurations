@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.21">
+	<ConfigVersions>
+		<Metadata name="AccumulationRegister.ВзаиморасчетыСоСтудентами" id="f43f171e-e012-41a6-933f-a6c8aa955068" configVersion="f4a725a2c1f62c429bc779042f393e6600000000">
+			<Metadata name="AccumulationRegister.ВзаиморасчетыСоСтудентами.Resource.СуммаПолучил" id="183e0c47-209d-4678-b287-39f385337385"/>
+			<Metadata name="AccumulationRegister.ВзаиморасчетыСоСтудентами.Dimension.Студент" id="1f2c5c16-74e8-4278-9785-e0ea2f7bf34e"/>
+			<Metadata name="AccumulationRegister.ВзаиморасчетыСоСтудентами.Resource.СуммаСдал" id="8941565e-b354-4c3d-a7b1-c8d0e1bbded6"/>
+		</Metadata>
+		<Metadata name="AccumulationRegister.СборыДляИменинников" id="0438b7c8-9256-4413-a336-92778d1de3b4" configVersion="2dda0f131b380d4da76b55b36d68a21300000000">
+			<Metadata name="AccumulationRegister.СборыДляИменинников.Resource.Сумма" id="cbc88630-d322-4c34-a2fa-91039c6e5fb3"/>
+			<Metadata name="AccumulationRegister.СборыДляИменинников.Dimension.Именинник" id="f0d01dd1-05b0-4fd2-a177-6ec6c4d95ce3"/>
+		</Metadata>
+		<Metadata name="Catalog.Студенты" id="a429fc27-b7d3-46cf-94bf-e4ff749aa4c9" configVersion="2dfcd1defb414c4b87fe4cae60e601f700000000">
+			<Metadata name="Catalog.Студенты.Attribute.ДатаРождения" id="97156e24-f5c4-408a-a316-11576a5a1b88"/>
+			<Metadata name="Catalog.Студенты.Attribute.Пол" id="e86fdc67-60ae-438c-89d6-96e8b30136ec"/>
+		</Metadata>
+		<Metadata name="Configuration.Конфигурация" id="113cd548-44e4-42dc-8b60-d89722256945" configVersion="d91b99702b93474fbcea899c6e111a5700000000"/>
+		<Metadata name="Configuration.Конфигурация.MainSectionCommandInterface" id="0fd329c1-95cd-4dfc-9eeb-b416082dde7c.9" configVersion="9e2b0126016fa649b5bf2f3ee8a16c5f00000000"/>
+		<Metadata name="Document.ВручениеПодарка" id="e814a566-fabe-4103-b410-8117a9fdae07" configVersion="ac11f40ff521324d990da78a96b3d13000000000">
+			<Metadata name="Document.ВручениеПодарка.Attribute.Подарок" id="a533d4c0-a23d-4de2-91ac-73e5e9d4afc5"/>
+			<Metadata name="Document.ВручениеПодарка.Attribute.Студент" id="ab7b327d-c104-4918-9613-8985f20d3e31"/>
+		</Metadata>
+		<Metadata name="Document.ВыдачаДенегНаПодарок" id="edbbbeb6-1603-4026-9ea7-dc79bf355335" configVersion="11b6e4ff7edcff40abf741b80b28b42c00000000">
+			<Metadata name="Document.ВыдачаДенегНаПодарок.TabularSection.СоставДокумента.Attribute.Студент" id="6ff0607f-f788-42f3-8223-14f7f803fa3c"/>
+			<Metadata name="Document.ВыдачаДенегНаПодарок.TabularSection.СоставДокумента" id="74c0ee34-3005-4fe7-9251-e9331aa0b424"/>
+			<Metadata name="Document.ВыдачаДенегНаПодарок.TabularSection.СоставДокумента.Attribute.Сумма" id="7ba68488-f648-4bbd-b6e7-30c5b0011287"/>
+			<Metadata name="Document.ВыдачаДенегНаПодарок.Attribute.Получатель" id="971fb6ee-d4a5-4327-ac29-7c76c047ea49"/>
+		</Metadata>
+		<Metadata name="Document.ОрганизацияСбора" id="3c76216c-87ae-485c-b600-17a848823b4b" configVersion="586d9714e4eac04b999445e9c8dacbf700000000">
+			<Metadata name="Document.ОрганизацияСбора.TabularSection.СоставДокумента.Attribute.Студент" id="3a730e6a-4720-443f-8377-f7a1c2a55d3e"/>
+			<Metadata name="Document.ОрганизацияСбора.TabularSection.СоставДокумента.Attribute.Сумма" id="948fd121-1fcd-49e0-a7b4-ceea5d8b1478"/>
+			<Metadata name="Document.ОрганизацияСбора.TabularSection.СоставДокумента" id="e7ff10b3-eb05-4a9a-9369-91fcfab9a8d4"/>
+			<Metadata name="Document.ОрганизацияСбора.Attribute.Именинник" id="e9f290aa-72fe-4224-af83-f9e3059022da"/>
+		</Metadata>
+		<Metadata name="Document.ОрганизацияСбора.ObjectModule" id="3c76216c-87ae-485c-b600-17a848823b4b.0" configVersion="aeab50b16ab409459f557f2b66d7af1500000000"/>
+		<Metadata name="Document.ПодарокПрибыл" id="12715f50-d437-4a43-947e-bff8c9d0b507" configVersion="03ce260770f00946b104f3832ce463dc00000000">
+			<Metadata name="Document.ПодарокПрибыл.Attribute.Стоимость" id="42fe6deb-66d6-4931-97b2-31a661e67717"/>
+		</Metadata>
+		<Metadata name="Enum.Полы" id="cceda1c6-0d0a-4d7b-a432-a02428211102" configVersion="1442288893be5f49870bfd48c11dbdcc00000000">
+			<Metadata name="Enum.Полы.EnumValue.Мужской" id="3b66265e-8c1e-4ad9-9bbb-8253b0b053be"/>
+			<Metadata name="Enum.Полы.EnumValue.Женский" id="3f8ab22f-7109-4439-aa90-2d77a752231c"/>
+		</Metadata>
+		<Metadata name="InformationRegister.Праздники" id="23aace3e-effe-415a-b920-5fc4c8501dc9" configVersion="9ff7c9854348a74b99557f75ebd2218100000000">
+			<Metadata name="InformationRegister.Праздники.Dimension.Дата" id="32615c43-35fc-473a-abca-496131afc6e4"/>
+			<Metadata name="InformationRegister.Праздники.Attribute.Название" id="9040b6ee-8150-4946-a066-d352e10c415e"/>
+		</Metadata>
+		<Metadata name="Language.Русский" id="18c839cf-4b7d-434c-b316-527943220f4c" configVersion="833212fb2ff7504f87293d5d77cc3c0600000000"/>
+		<Metadata name="Report.Именинники" id="dc385cfa-51e7-435b-b0b3-ab663f5409d2" configVersion="f9fdb96d03f8be4bb9ffff29478ba02a00000000"/>
+		<Metadata name="Report.Именинники.Template.ОсновнаяСхемаКомпоновкиДанных" id="b45787a4-8cec-408f-88a3-7742c427654a" configVersion="396dd786cdd5794384999d4e3f7f730300000000"/>
+		<Metadata name="Report.Именинники.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="b45787a4-8cec-408f-88a3-7742c427654a.0" configVersion="bf8b48b8005ec140aa8f555c2e19b8b100000000"/>
+	</ConfigVersions>
+</ConfigDumpInfo>

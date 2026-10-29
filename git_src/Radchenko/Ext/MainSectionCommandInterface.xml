@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CommandInterface xmlns="http://v8.1c.ru/8.3/xcf/extrnprops" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<CommandsVisibility>
+		<Command name="Document.ПриходнаяНакладная.StandardCommand.Create">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+				<xr:Value name="Role.Директор">false</xr:Value>
+				<xr:Value name="Role.Администратор">false</xr:Value>
+				<xr:Value name="Role.Расчетчик">false</xr:Value>
+				<xr:Value name="Role.Бухгалтер">false</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="Document.ОказаниеУслуги.StandardCommand.Create">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+				<xr:Value name="Role.Директор">false</xr:Value>
+				<xr:Value name="Role.Администратор">false</xr:Value>
+				<xr:Value name="Role.Расчетчик">false</xr:Value>
+				<xr:Value name="Role.Бухгалтер">false</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="Document.ВводНачальныхОстатковНоменклатуры.StandardCommand.Create">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+				<xr:Value name="Role.Администратор">false</xr:Value>
+				<xr:Value name="Role.Мастер">false</xr:Value>
+				<xr:Value name="Role.Директор">false</xr:Value>
+				<xr:Value name="Role.Расчетчик">false</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="Document.НачисленияСотрудникам.StandardCommand.Create">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+				<xr:Value name="Role.Бухгалтер">false</xr:Value>
+				<xr:Value name="Role.Мастер">false</xr:Value>
+				<xr:Value name="Role.Администратор">false</xr:Value>
+				<xr:Value name="Role.Директор">false</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="Report.Материалы.StandardCommand.Open">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+				<xr:Value name="Role.Администратор">false</xr:Value>
+				<xr:Value name="Role.Расчетчик">false</xr:Value>
+				<xr:Value name="Role.Бухгалтер">false</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="Report.ВыручкаМастеров.StandardCommand.Open">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+				<xr:Value name="Role.Администратор">false</xr:Value>
+				<xr:Value name="Role.Расчетчик">false</xr:Value>
+				<xr:Value name="Role.Бухгалтер">false</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="Report.ОборотноСальдоваяВедомость.StandardCommand.Open">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+				<xr:Value name="Role.Администратор">false</xr:Value>
+				<xr:Value name="Role.Мастер">false</xr:Value>
+				<xr:Value name="Role.Расчетчик">false</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="Report.НачисленияСотрудникам.StandardCommand.Open">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+				<xr:Value name="Role.Администратор">false</xr:Value>
+				<xr:Value name="Role.Мастер">false</xr:Value>
+				<xr:Value name="Role.Расчетчик">true</xr:Value>
+				<xr:Value name="Role.Бухгалтер">false</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="CommonForm.ОбщиеНастройки.StandardCommand.Open">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+				<xr:Value name="Role.Директор">false</xr:Value>
+				<xr:Value name="Role.Мастер">false</xr:Value>
+				<xr:Value name="Role.Расчетчик">false</xr:Value>
+				<xr:Value name="Role.Бухгалтер">false</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="DataProcessor.ОбменДанными.StandardCommand.Open">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+				<xr:Value name="Role.Директор">false</xr:Value>
+				<xr:Value name="Role.Мастер">false</xr:Value>
+				<xr:Value name="Role.Расчетчик">false</xr:Value>
+				<xr:Value name="Role.Бухгалтер">false</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="DataProcessor.ОбменСОтделениями.StandardCommand.Open">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+				<xr:Value name="Role.Директор">false</xr:Value>
+				<xr:Value name="Role.Мастер">false</xr:Value>
+				<xr:Value name="Role.Расчетчик">false</xr:Value>
+				<xr:Value name="Role.Бухгалтер">false</xr:Value>
+			</Visibility>
+		</Command>
+	</CommandsVisibility>
+	<CommandsPlacement>
+		<Command name="Document.ПриходнаяНакладная.StandardCommand.Create">
+			<CommandGroup>ActionsPanelCreate</CommandGroup>
+			<Placement>Manual</Placement>
+		</Command>
+		<Command name="Document.ОказаниеУслуги.StandardCommand.Create">
+			<CommandGroup>ActionsPanelCreate</CommandGroup>
+			<Placement>Manual</Placement>
+		</Command>
+		<Command name="Document.ВводНачальныхОстатковНоменклатуры.StandardCommand.Create">
+			<CommandGroup>ActionsPanelCreate</CommandGroup>
+			<Placement>Manual</Placement>
+		</Command>
+		<Command name="Document.НачисленияСотрудникам.StandardCommand.Create">
+			<CommandGroup>ActionsPanelCreate</CommandGroup>
+			<Placement>Manual</Placement>
+		</Command>
+		<Command name="Report.Материалы.StandardCommand.Open">
+			<CommandGroup>ActionsPanelReports</CommandGroup>
+			<Placement>Manual</Placement>
+		</Command>
+		<Command name="Report.ВыручкаМастеров.StandardCommand.Open">
+			<CommandGroup>ActionsPanelReports</CommandGroup>
+			<Placement>Manual</Placement>
+		</Command>
+		<Command name="Report.ОборотноСальдоваяВедомость.StandardCommand.Open">
+			<CommandGroup>ActionsPanelReports</CommandGroup>
+			<Placement>Manual</Placement>
+		</Command>
+		<Command name="Report.НачисленияСотрудникам.StandardCommand.Open">
+			<CommandGroup>ActionsPanelReports</CommandGroup>
+			<Placement>Manual</Placement>
+		</Command>
+		<Command name="CommonForm.ОбщиеНастройки.StandardCommand.Open">
+			<CommandGroup>ActionsPanelTools</CommandGroup>
+			<Placement>Manual</Placement>
+		</Command>
+		<Command name="DataProcessor.ОбменДанными.StandardCommand.Open">
+			<CommandGroup>ActionsPanelTools</CommandGroup>
+			<Placement>Manual</Placement>
+		</Command>
+		<Command name="DataProcessor.ОбменСОтделениями.StandardCommand.Open">
+			<CommandGroup>ActionsPanelTools</CommandGroup>
+			<Placement>Manual</Placement>
+		</Command>
+	</CommandsPlacement>
+	<CommandsOrder>
+		<Command name="Document.ПриходнаяНакладная.StandardCommand.Create">
+			<CommandGroup>ActionsPanelCreate</CommandGroup>
+		</Command>
+		<Command name="Document.ОказаниеУслуги.StandardCommand.Create">
+			<CommandGroup>ActionsPanelCreate</CommandGroup>
+		</Command>
+		<Command name="Document.ВводНачальныхОстатковНоменклатуры.StandardCommand.Create">
+			<CommandGroup>ActionsPanelCreate</CommandGroup>
+		</Command>
+		<Command name="Document.НачисленияСотрудникам.StandardCommand.Create">
+			<CommandGroup>ActionsPanelCreate</CommandGroup>
+		</Command>
+		<Command name="Report.Материалы.StandardCommand.Open">
+			<CommandGroup>ActionsPanelReports</CommandGroup>
+		</Command>
+		<Command name="Report.ВыручкаМастеров.StandardCommand.Open">
+			<CommandGroup>ActionsPanelReports</CommandGroup>
+		</Command>
+		<Command name="Report.ОборотноСальдоваяВедомость.StandardCommand.Open">
+			<CommandGroup>ActionsPanelReports</CommandGroup>
+		</Command>
+		<Command name="Report.НачисленияСотрудникам.StandardCommand.Open">
+			<CommandGroup>ActionsPanelReports</CommandGroup>
+		</Command>
+		<Command name="CommonForm.ОбщиеНастройки.StandardCommand.Open">
+			<CommandGroup>ActionsPanelTools</CommandGroup>
+		</Command>
+		<Command name="DataProcessor.ОбменДанными.StandardCommand.Open">
+			<CommandGroup>ActionsPanelTools</CommandGroup>
+		</Command>
+		<Command name="DataProcessor.ОбменСОтделениями.StandardCommand.Open">
+			<CommandGroup>ActionsPanelTools</CommandGroup>
+		</Command>
+	</CommandsOrder>
+	<GroupsOrder>
+		<Group>ActionsPanelCreate</Group>
+		<Group>ActionsPanelReports</Group>
+		<Group>ActionsPanelTools</Group>
+	</GroupsOrder>
+</CommandInterface>

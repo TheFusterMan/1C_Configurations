@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.21">
+	<ConfigVersions>
+		<Metadata name="AccumulationRegister.ДебиторскиеЗадолженности" id="a900c3e7-4456-408b-95c0-c267fa4f9f65" configVersion="c5a37c9f2db8b541874ca55bea50974200000000">
+			<Metadata name="AccumulationRegister.ДебиторскиеЗадолженности.Dimension.Валюта" id="64af02f1-09c7-4153-a543-3056f15eeee6"/>
+			<Metadata name="AccumulationRegister.ДебиторскиеЗадолженности.Dimension.Акт" id="babd2efc-38e4-4b1d-821c-8cd5ca0a50d7"/>
+			<Metadata name="AccumulationRegister.ДебиторскиеЗадолженности.Dimension.Покупатель" id="df47a295-0fa8-441c-ad8a-4252ccccecbd"/>
+			<Metadata name="AccumulationRegister.ДебиторскиеЗадолженности.Resource.Сумма" id="dfee7b26-106b-404b-b5e7-dd3df7a6d779"/>
+		</Metadata>
+		<Metadata name="Catalog.Валюты" id="b2b14045-2de7-4e5d-ac3e-316349c11d5c" configVersion="4c9b0feb3fda4f4a8d2c28e619f3a44b00000000"/>
+		<Metadata name="Catalog.Валюты.Predefined" id="b2b14045-2de7-4e5d-ac3e-316349c11d5c.1c" configVersion="c72f42429d15324a84c74ab6d08563f600000000"/>
+		<Metadata name="Catalog.Покупатели" id="8dcbe8cc-2aa7-428b-a587-4506a5dbdcc0" configVersion="0a2ced3968022044aab3414ba953f44b00000000"/>
+		<Metadata name="Configuration.Конфигурация" id="47532156-b0f0-4913-8d08-1bcd01d2e7d6" configVersion="8863abedc7d4f14884f9e171aba1b7fe00000000"/>
+		<Metadata name="Configuration.Конфигурация.MainSectionCommandInterface" id="c5de4fcf-dc7d-4f21-a439-18b1acd49cd0.9" configVersion="56e89da554294840a531e54bb59c83e800000000"/>
+		<Metadata name="Document.АктОбОказанииУслуги" id="4ba3abbd-524d-4e32-aa18-ed3b26ccfb1e" configVersion="dab929ab08679b42850b77de94cb5e1b00000000">
+			<Metadata name="Document.АктОбОказанииУслуги.Attribute.Покупатель" id="68a6df76-1a7a-42c2-9ef9-5c48d5fe95b9"/>
+			<Metadata name="Document.АктОбОказанииУслуги.Attribute.Сумма" id="6a0ead90-f210-4eb2-9ff7-d1adcaa8f405"/>
+			<Metadata name="Document.АктОбОказанииУслуги.Attribute.Валюта" id="d4b97be3-9575-4160-8067-bdd65c732e8f"/>
+		</Metadata>
+		<Metadata name="Document.АктОбОказанииУслуги.Form.ФормаВыбора" id="43da2558-1c23-45f5-af9d-c2f2f424e69a" configVersion="5491e4ca170b9f41b5a6bb435799788c00000000"/>
+		<Metadata name="Document.АктОбОказанииУслуги.Form.ФормаВыбора.Form" id="43da2558-1c23-45f5-af9d-c2f2f424e69a.0" configVersion="20de513ae1485d468bac023752042b2000000000"/>
+		<Metadata name="Document.АктОбОказанииУслуги.ObjectModule" id="4ba3abbd-524d-4e32-aa18-ed3b26ccfb1e.0" configVersion="d588dea4fb5f0d4fb6cb3b51c9eceb7500000000"/>
+		<Metadata name="Document.ПриходныйКассовыйОрдер" id="d7e1ab38-5cdf-4dff-8cb7-3ff5d3d7f98d" configVersion="37695ac7cf03774698cee42b29a3366300000000">
+			<Metadata name="Document.ПриходныйКассовыйОрдер.Attribute.Валюта" id="280df3de-30c3-4d66-ad41-e75ba375caa4"/>
+			<Metadata name="Document.ПриходныйКассовыйОрдер.Attribute.Акт" id="89a79e38-94f7-465b-bd66-45b45cde044b"/>
+			<Metadata name="Document.ПриходныйКассовыйОрдер.Attribute.Сумма" id="db8fe1db-c770-4e2d-af76-612497747fa5"/>
+		</Metadata>
+		<Metadata name="Document.ПриходныйКассовыйОрдер.ObjectModule" id="d7e1ab38-5cdf-4dff-8cb7-3ff5d3d7f98d.0" configVersion="87709a55bb3f5540b03d3ef6629b4c5200000000"/>
+		<Metadata name="InformationRegister.КурсыВалют" id="f9c2cdf9-87d1-48b5-b85e-2e1978aef2da" configVersion="4e87a45fb20c184185afab80f6373c2500000000">
+			<Metadata name="InformationRegister.КурсыВалют.Resource.Курс" id="5b5a5116-ba64-4347-89dc-a35c48370fc8"/>
+			<Metadata name="InformationRegister.КурсыВалют.Dimension.Валюта" id="78a5819a-75ca-4cd9-9689-fb461b87a30d"/>
+		</Metadata>
+		<Metadata name="InformationRegister.КурсыВалют.ManagerModule" id="f9c2cdf9-87d1-48b5-b85e-2e1978aef2da.2" configVersion="fd7b01ffc485a6469e2eb519cc52446900000000"/>
+		<Metadata name="InformationRegister.КурсыВалют.RecordSetModule" id="f9c2cdf9-87d1-48b5-b85e-2e1978aef2da.1" configVersion="7be6c782b2f70a46a03f0b8551b7453000000000"/>
+		<Metadata name="Language.Русский" id="622479f4-f9cb-4d75-8688-db93c333d423" configVersion="2c6e74fd2215d14e9ab62bbbeb33d7fb00000000"/>
+		<Metadata name="Report.ДебиторскаяЗадолженность" id="39e48472-33b9-4c8c-8d98-3b60efcc7091" configVersion="ae30012325e9064d8c83a8dc73c1312200000000"/>
+		<Metadata name="Report.ДебиторскаяЗадолженность.Template.ОсновнаяСхемаКомпоновкиДанных" id="50e88d94-48cb-4ba8-b92f-1f0e09764f24" configVersion="c565a87b740d624d9a222d1f54ea6d5900000000"/>
+		<Metadata name="Report.ДебиторскаяЗадолженность.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="50e88d94-48cb-4ba8-b92f-1f0e09764f24.0" configVersion="37c8486cca2f044b9a9162df101c3c1800000000"/>
+		<Metadata name="Report.ДебиторскаяЗадолженность.Template.ОсновнаяСхемаКомпоновкиДанных1" id="9f679d23-563d-4b98-a3a2-803632c31a5a" configVersion="a117391fb534b84f9f852b4adfe72a2c00000000"/>
+		<Metadata name="Report.ДебиторскаяЗадолженность.Template.ОсновнаяСхемаКомпоновкиДанных1.Template" id="9f679d23-563d-4b98-a3a2-803632c31a5a.0" configVersion="c34f91ea2d835d48b14ae2b5684a90e600000000"/>
+	</ConfigVersions>
+</ConfigDumpInfo>

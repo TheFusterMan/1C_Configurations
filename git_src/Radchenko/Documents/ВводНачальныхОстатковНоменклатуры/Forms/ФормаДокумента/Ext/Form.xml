@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<AutoTime>CurrentOrLast</AutoTime>
+	<UsePostingMode>Auto</UsePostingMode>
+	<RepostOnWrite>true</RepostOnWrite>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="BeforeWrite">ПередЗаписью</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="Группа1" id="60">
+			<Group>AlwaysHorizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="61"/>
+			<ChildItems>
+				<InputField name="Дата" id="5">
+					<DataPath>Объект.Date</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ДатаКонтекстноеМеню" id="6"/>
+					<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="7"/>
+				</InputField>
+				<InputField name="Номер" id="1">
+					<DataPath>Объект.Number</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
+					<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="3"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<Table name="ДвиженияОстаткиМатериалов" id="11">
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>Объект.RegisterRecords.ОстаткиМатериалов</DataPath>
+			<ShowCommandBar>auto</ShowCommandBar>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="ДвиженияОстаткиМатериаловКонтекстноеМеню" id="12"/>
+			<AutoCommandBar name="ДвиженияОстаткиМатериаловКоманднаяПанель" id="13"/>
+			<ExtendedTooltip name="ДвиженияОстаткиМатериаловРасширеннаяПодсказка" id="14"/>
+			<SearchStringAddition name="ДвиженияОстаткиМатериаловСтрокаПоиска" id="15">
+				<AdditionSource>
+					<Item>ДвиженияОстаткиМатериалов</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ДвиженияОстаткиМатериаловСтрокаПоискаКонтекстноеМеню" id="16"/>
+				<ExtendedTooltip name="ДвиженияОстаткиМатериаловСтрокаПоискаРасширеннаяПодсказка" id="17"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="ДвиженияОстаткиМатериаловСостояниеПросмотра" id="18">
+				<AdditionSource>
+					<Item>ДвиженияОстаткиМатериалов</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ДвиженияОстаткиМатериаловСостояниеПросмотраКонтекстноеМеню" id="19"/>
+				<ExtendedTooltip name="ДвиженияОстаткиМатериаловСостояниеПросмотраРасширеннаяПодсказка" id="20"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="ДвиженияОстаткиМатериаловУправлениеПоиском" id="21">
+				<AdditionSource>
+					<Item>ДвиженияОстаткиМатериалов</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="ДвиженияОстаткиМатериаловУправлениеПоискомКонтекстноеМеню" id="22"/>
+				<ExtendedTooltip name="ДвиженияОстаткиМатериаловУправлениеПоискомРасширеннаяПодсказка" id="23"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<InputField name="ДвиженияОстаткиМатериаловНомерСтроки" id="32">
+					<DataPath>Объект.RegisterRecords.ОстаткиМатериалов.LineNumber</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ДвиженияОстаткиМатериаловНомерСтрокиКонтекстноеМеню" id="33"/>
+					<ExtendedTooltip name="ДвиженияОстаткиМатериаловНомерСтрокиРасширеннаяПодсказка" id="34"/>
+				</InputField>
+				<InputField name="ДвиженияОстаткиМатериаловПериод" id="36">
+					<DataPath>Объект.RegisterRecords.ОстаткиМатериалов.Period</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ДвиженияОстаткиМатериаловПериодКонтекстноеМеню" id="37"/>
+					<ExtendedTooltip name="ДвиженияОстаткиМатериаловПериодРасширеннаяПодсказка" id="38"/>
+				</InputField>
+				<InputField name="ДвиженияОстаткиМатериаловВидДвижения" id="40">
+					<DataPath>Объект.RegisterRecords.ОстаткиМатериалов.RecordType</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ДвиженияОстаткиМатериаловВидДвиженияКонтекстноеМеню" id="41"/>
+					<ExtendedTooltip name="ДвиженияОстаткиМатериаловВидДвиженияРасширеннаяПодсказка" id="42"/>
+				</InputField>
+				<InputField name="ДвиженияОстаткиМатериаловМатериал" id="44">
+					<DataPath>Объект.RegisterRecords.ОстаткиМатериалов.Материал</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ДвиженияОстаткиМатериаловМатериалКонтекстноеМеню" id="45"/>
+					<ExtendedTooltip name="ДвиженияОстаткиМатериаловМатериалРасширеннаяПодсказка" id="46"/>
+				</InputField>
+				<InputField name="ДвиженияОстаткиМатериаловНаборСвойств" id="52">
+					<DataPath>Объект.RegisterRecords.ОстаткиМатериалов.НаборСвойств</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ДвиженияОстаткиМатериаловНаборСвойствКонтекстноеМеню" id="53"/>
+					<ExtendedTooltip name="ДвиженияОстаткиМатериаловНаборСвойствРасширеннаяПодсказка" id="54"/>
+				</InputField>
+				<InputField name="ДвиженияОстаткиМатериаловСклад" id="48">
+					<DataPath>Объект.RegisterRecords.ОстаткиМатериалов.Склад</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ДвиженияОстаткиМатериаловСкладКонтекстноеМеню" id="49"/>
+					<ExtendedTooltip name="ДвиженияОстаткиМатериаловСкладРасширеннаяПодсказка" id="50"/>
+				</InputField>
+				<InputField name="ДвиженияОстаткиМатериаловКоличество" id="56">
+					<DataPath>Объект.RegisterRecords.ОстаткиМатериалов.Количество</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ДвиженияОстаткиМатериаловКоличествоКонтекстноеМеню" id="57"/>
+					<ExtendedTooltip name="ДвиженияОстаткиМатериаловКоличествоРасширеннаяПодсказка" id="58"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DocumentObject.ВводНачальныхОстатковНоменклатуры</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+			<UseAlways>
+				<Field>Объект.RegisterRecords</Field>
+			</UseAlways>
+		</Attribute>
+	</Attributes>
+	<CommandInterface>
+		<NavigationPanel>
+			<Item>
+				<Command>AccumulationRegister.ОстаткиМатериалов.StandardCommand.OpenByRecorder</Command>
+				<Type>Auto</Type>
+				<DefaultVisible>false</DefaultVisible>
+			</Item>
+		</NavigationPanel>
+	</CommandInterface>
+</Form>

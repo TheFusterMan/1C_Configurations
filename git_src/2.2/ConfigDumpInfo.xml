@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.21">
+	<ConfigVersions>
+		<Metadata name="AccountingRegister.ВзаиморасчетыСКлиентами" id="081a8b8e-8735-46af-bf9d-2418b469aba1" configVersion="adff5f0d751a5a42be314dc8218ad12800000000">
+			<Metadata name="AccountingRegister.ВзаиморасчетыСКлиентами.Resource.Сумма" id="e2ac2ce2-fb82-4b48-9be8-ac6397294269"/>
+		</Metadata>
+		<Metadata name="Catalog.Договоры" id="ea4a3b48-91c5-42fa-bb6c-f0c99d26fb36" configVersion="62dc46b7e62b854d93f7fe13eb28aaec00000000">
+			<Metadata name="Catalog.Договоры.Attribute.ДатаОкончания" id="6cd9a708-1f56-44cc-a983-f861d723edb8"/>
+		</Metadata>
+		<Metadata name="Catalog.Контрагенты" id="8b28664b-1e3b-4b92-ad01-a94ed4dbd197" configVersion="734e9d9e568bfb488a2d2c4487e7749f00000000"/>
+		<Metadata name="ChartOfAccounts.Основной" id="fb1b409e-8e74-4a2d-bd3b-0913772ed7d1" configVersion="6bdfa8f28ac98a4a9bfcfe3bdac6a4ca00000000"/>
+		<Metadata name="ChartOfAccounts.Основной.Predefined" id="fb1b409e-8e74-4a2d-bd3b-0913772ed7d1.9" configVersion="d4ffafcb0ab7254088701f743000cfbe00000000"/>
+		<Metadata name="ChartOfCharacteristicTypes.ВидыСубконтоВзаиморасчетыСКлиентами" id="296dbd06-e539-4932-81ae-f09dcb0ef900" configVersion="38a75728bfd60949bd77b64d7f2c3a3200000000"/>
+		<Metadata name="ChartOfCharacteristicTypes.ВидыСубконтоВзаиморасчетыСКлиентами.Predefined" id="296dbd06-e539-4932-81ae-f09dcb0ef900.7" configVersion="43cdff00d1bc744fb1975c604227c44f00000000"/>
+		<Metadata name="Configuration.Конфигурация" id="91572f31-5cc4-4920-ae23-870bac61f412" configVersion="5ae2f4a4266bb749bfa67b982a5f979400000000"/>
+		<Metadata name="Configuration.Конфигурация.MainSectionCommandInterface" id="cc6dd931-451d-4d07-b65a-a1639419045a.9" configVersion="80c47bafce41f44092bf28564fd443fe00000000"/>
+		<Metadata name="Document.ПриходДенег" id="2f90f40c-9c83-4d1f-80d7-94d000fb2d55" configVersion="19e5eeb972440e429446e1bcfb17de7b00000000">
+			<Metadata name="Document.ПриходДенег.Attribute.Сумма" id="8a4c3610-576a-416e-8cc5-f8222626f531"/>
+			<Metadata name="Document.ПриходДенег.Attribute.Контрагент" id="f7600ffd-1eb5-4830-a03e-101aba3649b5"/>
+		</Metadata>
+		<Metadata name="Document.ПриходДенег.ObjectModule" id="2f90f40c-9c83-4d1f-80d7-94d000fb2d55.0" configVersion="4161b36e76d44c4f834d7f729f8149d800000000"/>
+		<Metadata name="Document.РасходнаяНакладная" id="1a61bdf3-665f-46e2-a5c8-aabd368ccb0c" configVersion="0ee6e1337521a74386f6f9952dc4fb7f00000000">
+			<Metadata name="Document.РасходнаяНакладная.Attribute.Покупатель" id="701fedfe-952f-42d4-a47e-27e18f4de08c"/>
+			<Metadata name="Document.РасходнаяНакладная.Attribute.Сумма" id="ac9e9b7a-6ebc-415b-9695-f35c9b535dd4"/>
+			<Metadata name="Document.РасходнаяНакладная.Attribute.Договор" id="f8fd4baa-5e83-410f-a1fa-0e6fa135f6a7"/>
+		</Metadata>
+		<Metadata name="Document.РасходнаяНакладная.Form.ФормаДокумента" id="b035971b-ec72-4377-8ba8-0c379b50737f" configVersion="64896836241da2418694c02ff9f1d1aa00000000"/>
+		<Metadata name="Document.РасходнаяНакладная.Form.ФормаДокумента.Form" id="b035971b-ec72-4377-8ba8-0c379b50737f.0" configVersion="65c0dbccb970bc4c907e06e35b468c8c00000000"/>
+		<Metadata name="Document.РасходнаяНакладная.ObjectModule" id="1a61bdf3-665f-46e2-a5c8-aabd368ccb0c.0" configVersion="71cdac7e13eac7479299ea16d0f2695a00000000"/>
+		<Metadata name="Language.Русский" id="2afb7b67-ee52-4586-8c47-46755957ff5a" configVersion="9b2543f085f8f7439198d224ed87d8d900000000"/>
+		<Metadata name="Report.ВзаиморасчетыСПокупателями" id="87cf28b6-6cf0-4664-a914-33d72aaaf420" configVersion="bf5d744b84c4e0488e8a5c14e7a5ce0100000000"/>
+		<Metadata name="Report.ВзаиморасчетыСПокупателями.Template.ОсновнаяСхемаКомпоновкиДанных" id="29cd48b4-413e-4c55-a2db-58928233a7d4" configVersion="d14a37b83820e642b79548835242ada800000000"/>
+		<Metadata name="Report.ВзаиморасчетыСПокупателями.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="29cd48b4-413e-4c55-a2db-58928233a7d4.0" configVersion="74c0255d5c81284db7bfe1521ea373c800000000"/>
+		<Metadata name="Report.ЗадолженностьПокупателей" id="63a7fc9d-cd78-422a-be10-d89b9d123cdc" configVersion="d43463d297d7e04fb3e4715b8fdc43ff00000000"/>
+		<Metadata name="Report.ЗадолженностьПокупателей.Template.ОсновнаяСхемаКомпоновкиДанных" id="9e8ad304-c592-431a-9597-1126bf85cb5e" configVersion="c5bf60bbc2de244689fe33f8ad0db3a700000000"/>
+		<Metadata name="Report.ЗадолженностьПокупателей.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="9e8ad304-c592-431a-9597-1126bf85cb5e.0" configVersion="95a386a774e43743b83a008649ad218b00000000"/>
+	</ConfigVersions>
+</ConfigDumpInfo>

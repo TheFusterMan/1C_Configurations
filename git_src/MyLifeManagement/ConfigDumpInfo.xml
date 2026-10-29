@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.21">
+	<ConfigVersions>
+		<Metadata name="AccumulationRegister.ОстаткиВещей" id="6889677f-75bd-498f-8c6e-457cf1598be0" configVersion="c91639248aaa984dbb1cff2d1695748a00000000">
+			<Metadata name="AccumulationRegister.ОстаткиВещей.Resource.Количество" id="57a34d5d-93ea-48c0-ad9b-3e2e747ee796"/>
+			<Metadata name="AccumulationRegister.ОстаткиВещей.Dimension.Вещь" id="6dcad873-1f82-43f4-a828-1aa2a069bb78"/>
+		</Metadata>
+		<Metadata name="Catalog.Вещи" id="c8dd9bfb-336a-461c-b2d3-18df463eec56" configVersion="30ec2a80c87988418c16950c9eedc75c00000000"/>
+		<Metadata name="Configuration.Конфигурация" id="956fba14-8f6b-4f71-9d13-b76fe25b6f72" configVersion="eeec168975403b469942aa76fa20745000000000"/>
+		<Metadata name="Configuration.Конфигурация.MainSectionCommandInterface" id="993b5a76-74d0-41b8-a047-919b50e973a6.9" configVersion="280386a0d272f14cbbf8a75c7875109300000000"/>
+		<Metadata name="Document.ВывозВещей" id="e036e5fa-3a9c-4623-8047-513151e5d0f8" configVersion="09136f3894a14c4e994a45b97d3b7b4500000000">
+			<Metadata name="Document.ВывозВещей.TabularSection.СоставДокумента.Attribute.Вещь" id="1f8f9cce-2eca-413d-8fe8-ea2340129738"/>
+			<Metadata name="Document.ВывозВещей.TabularSection.СоставДокумента.Attribute.Количество" id="6c9cfdb5-3d16-44d1-a75f-b08654ee6454"/>
+			<Metadata name="Document.ВывозВещей.TabularSection.СоставДокумента" id="721cd6af-abdd-4e8e-bc70-ba4156667aad"/>
+		</Metadata>
+		<Metadata name="Document.ВывозВещей.ObjectModule" id="e036e5fa-3a9c-4623-8047-513151e5d0f8.0" configVersion="f35958c4b931d041a1a630ef08b224d000000000"/>
+		<Metadata name="Document.ПоступлениеВещей" id="4d667571-c7ea-4280-ada8-6a1711ae4b00" configVersion="4e0f363d7d884b45bf397ed54d6efdb800000000">
+			<Metadata name="Document.ПоступлениеВещей.TabularSection.СоставДокумента.Attribute.Количество" id="26085f5f-5962-4672-9f6c-6f5aa15d51ab"/>
+			<Metadata name="Document.ПоступлениеВещей.TabularSection.СоставДокумента.Attribute.Вещь" id="275acab4-931d-4701-8f5a-ca5206638752"/>
+			<Metadata name="Document.ПоступлениеВещей.TabularSection.СоставДокумента" id="a4a8385b-e050-43a1-9925-25b649f21791"/>
+		</Metadata>
+		<Metadata name="Document.ПоступлениеВещей.ObjectModule" id="4d667571-c7ea-4280-ada8-6a1711ae4b00.0" configVersion="7d898c6f339d39458be73918009bc31200000000"/>
+		<Metadata name="Language.Русский" id="c2f9e72c-b7e8-446b-806a-60bf0fcc271b" configVersion="b2f3d74db4c3e646b01ca92117046c4a00000000"/>
+		<Metadata name="Report.ОстаткиВещей" id="3daf4428-d3ee-4456-ab0d-270319fb478f" configVersion="70df14b751b8cf45a003720f63c965b300000000"/>
+		<Metadata name="Report.ОстаткиВещей.Template.ОсновнаяСхемаКомпоновкиДанных" id="f1a4a095-341f-44fd-98ab-e99f097ff9b4" configVersion="581e6159ce5c924c8aa0afa2288dc16200000000"/>
+		<Metadata name="Report.ОстаткиВещей.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="f1a4a095-341f-44fd-98ab-e99f097ff9b4.0" configVersion="3fb02db1938c924490627dca2fc7ed4600000000"/>
+	</ConfigVersions>
+</ConfigDumpInfo>

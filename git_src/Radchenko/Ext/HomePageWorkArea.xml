@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<HomePageWorkArea xmlns="http://v8.1c.ru/8.3/xcf/extrnprops" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<WorkingAreaTemplate>TwoColumnsVariableWidth</WorkingAreaTemplate>
+	<LeftColumn>
+		<Item>
+			<Form>Document.ОказаниеУслуги.Form.ФормаСписка</Form>
+			<Height>10</Height>
+			<Visibility>
+				<xr:Common>true</xr:Common>
+				<xr:Value name="Role.Администратор">false</xr:Value>
+				<xr:Value name="Role.Директор">false</xr:Value>
+				<xr:Value name="Role.Расчетчик">false</xr:Value>
+				<xr:Value name="Role.Бухгалтер">false</xr:Value>
+			</Visibility>
+		</Item>
+		<Item>
+			<Form>Report.ОборотноСальдоваяВедомость.Form.ФормаОтчета</Form>
+			<Height>10</Height>
+			<Visibility>
+				<xr:Common>true</xr:Common>
+				<xr:Value name="Role.Администратор">false</xr:Value>
+				<xr:Value name="Role.Директор">false</xr:Value>
+				<xr:Value name="Role.Мастер">false</xr:Value>
+				<xr:Value name="Role.Расчетчик">false</xr:Value>
+			</Visibility>
+		</Item>
+		<Item>
+			<Form>Report.ВыручкаМастеров.Form.ФормаОтчета</Form>
+			<Height>10</Height>
+			<Visibility>
+				<xr:Common>true</xr:Common>
+				<xr:Value name="Role.Администратор">false</xr:Value>
+				<xr:Value name="Role.Мастер">false</xr:Value>
+				<xr:Value name="Role.Расчетчик">false</xr:Value>
+				<xr:Value name="Role.Бухгалтер">false</xr:Value>
+			</Visibility>
+		</Item>
+		<Item>
+			<Form>ExchangePlan.Филиалы.Form.ФормаСписка</Form>
+			<Height>10</Height>
+			<Visibility>
+				<xr:Common>true</xr:Common>
+				<xr:Value name="Role.Директор">false</xr:Value>
+				<xr:Value name="Role.Мастер">false</xr:Value>
+				<xr:Value name="Role.Расчетчик">false</xr:Value>
+				<xr:Value name="Role.Бухгалтер">false</xr:Value>
+			</Visibility>
+		</Item>
+		<Item>
+			<Form>ExchangePlan.Отделения.Form.ФормаСписка</Form>
+			<Height>10</Height>
+			<Visibility>
+				<xr:Common>true</xr:Common>
+				<xr:Value name="Role.Директор">false</xr:Value>
+				<xr:Value name="Role.Мастер">false</xr:Value>
+				<xr:Value name="Role.Расчетчик">false</xr:Value>
+				<xr:Value name="Role.Бухгалтер">false</xr:Value>
+			</Visibility>
+		</Item>
+	</LeftColumn>
+	<RightColumn>
+		<Item>
+			<Form>Document.ПриходнаяНакладная.Form.ФормаСписка</Form>
+			<Height>10</Height>
+			<Visibility>
+				<xr:Common>true</xr:Common>
+				<xr:Value name="Role.Администратор">false</xr:Value>
+				<xr:Value name="Role.Директор">false</xr:Value>
+				<xr:Value name="Role.Расчетчик">false</xr:Value>
+				<xr:Value name="Role.Бухгалтер">false</xr:Value>
+			</Visibility>
+		</Item>
+		<Item>
+			<Form>Document.НачисленияСотрудникам.Form.ФормаСписка</Form>
+			<Height>10</Height>
+			<Visibility>
+				<xr:Common>true</xr:Common>
+				<xr:Value name="Role.Администратор">false</xr:Value>
+				<xr:Value name="Role.Директор">false</xr:Value>
+				<xr:Value name="Role.Мастер">false</xr:Value>
+				<xr:Value name="Role.Бухгалтер">false</xr:Value>
+			</Visibility>
+		</Item>
+	</RightColumn>
+</HomePageWorkArea>

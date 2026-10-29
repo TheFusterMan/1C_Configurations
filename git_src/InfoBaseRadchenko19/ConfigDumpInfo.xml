@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.21">
+	<ConfigVersions>
+		<Metadata name="Catalog.Жанры" id="8ef7dc98-8cf7-4d6a-9bb1-dc28a171300f" configVersion="34ac1f7ce0548e44be4a1d489546da6800000000"/>
+		<Metadata name="Catalog.Исполнители" id="9cd86cef-e748-4503-ac31-db59fb78a447" configVersion="d1dd420a2c951e4781b4c0c23af6ee2400000000"/>
+		<Metadata name="Catalog.Композиторы" id="9f7b2cd5-7082-497b-974c-1760b1b17ac5" configVersion="30ca4cf84b930c4e85b950be9ae087fd00000000"/>
+		<Metadata name="Catalog.Композиции" id="819b889d-d230-4c37-9cf6-ee128115c2f7" configVersion="29c7f35b45d811438dcaf90bfe7948b600000000">
+			<Metadata name="Catalog.Композиции.Attribute.ЗвуковойФайл" id="45cc40b3-0105-4e81-84ba-2ca43b8a54c9"/>
+			<Metadata name="Catalog.Композиции.Attribute.Поэт" id="7e1158f2-f95e-4e27-a568-b79a3cd3c4a6"/>
+			<Metadata name="Catalog.Композиции.Attribute.ДатаВыхода" id="83f7065e-6ec4-4e0e-9e9f-c66fd9be60a7"/>
+			<Metadata name="Catalog.Композиции.Attribute.ОбложкаАльбома" id="8d0361af-6a02-4d9f-984f-b5034457391e"/>
+			<Metadata name="Catalog.Композиции.Attribute.Рейтинг" id="c7c1a0c7-a1eb-42a4-af76-dc071fb21070"/>
+			<Metadata name="Catalog.Композиции.Attribute.Жанр" id="db87fbcb-c288-4d89-a8a8-c834bb68b1ff"/>
+			<Metadata name="Catalog.Композиции.Attribute.Композитор" id="e4d60cba-b14a-478d-ba70-c1cde26383ec"/>
+		</Metadata>
+		<Metadata name="Catalog.Композиции.Form.КарточкаКомпозиции" id="9161d19d-a81f-4690-8cd6-00a4a0243829" configVersion="65507369aa62cb4c823e975d7d60f65200000000"/>
+		<Metadata name="Catalog.Композиции.Form.КарточкаКомпозиции.Form" id="9161d19d-a81f-4690-8cd6-00a4a0243829.0" configVersion="29eaffa03a3c7d4e8609efadd0852d1a00000000"/>
+		<Metadata name="Catalog.Плейлисты" id="88792c84-7237-4415-8259-21875d6bbeda" configVersion="78bcd7aa676bd5499bf8dfe232acde1900000000">
+			<Metadata name="Catalog.Плейлисты.TabularSection.Состав.Attribute.Композиция" id="b002d503-68e6-490a-8e61-3179dd188da9"/>
+			<Metadata name="Catalog.Плейлисты.TabularSection.Состав" id="ef0335a3-a8f0-42e7-a4e9-a51cc7aa64d7"/>
+		</Metadata>
+		<Metadata name="Catalog.Плейлисты.Form.ФормаЭлемента" id="fee8490a-ed76-491a-af10-438936af6df2" configVersion="6f9d18ed22d558488f14f45921a57b3f00000000"/>
+		<Metadata name="Catalog.Плейлисты.Form.ФормаЭлемента.Form" id="fee8490a-ed76-491a-af10-438936af6df2.0" configVersion="680a953088919b478adcd4f1d6490d2300000000"/>
+		<Metadata name="Catalog.Поэты" id="08e7214c-e065-48fd-a8cb-669a4a0c5575" configVersion="f74dae75eb4b9644bc8713b9084114a200000000"/>
+		<Metadata name="Configuration.Конфигурация" id="799f4a02-681b-4ede-8c13-56b9fd331344" configVersion="449e50f9a95c0c43a1b565fbc42b891500000000"/>
+		<Metadata name="Configuration.Конфигурация.HomePageWorkArea" id="df124304-ff25-4cbf-8dc8-d80c87fceb80.8" configVersion="b5b8e780bd884241a5ecf908862753a400000000"/>
+		<Metadata name="Configuration.Конфигурация.MainSectionCommandInterface" id="df124304-ff25-4cbf-8dc8-d80c87fceb80.9" configVersion="4542023be5f6b5489b8ccd08a278af2800000000"/>
+		<Metadata name="DataProcessor.ГлавноеОкно" id="55c0655c-cbcb-4ee2-a622-acdc632f68c6" configVersion="89f25674f37aa8478967751ccff506c200000000"/>
+		<Metadata name="DataProcessor.ГлавноеОкно.Form.Форма" id="4b60ce92-13d0-4886-afa5-13190a076ac2" configVersion="b62e9c3fd61d1d4eb4a80a3243c3ccc300000000"/>
+		<Metadata name="DataProcessor.ГлавноеОкно.Form.Форма.Form" id="4b60ce92-13d0-4886-afa5-13190a076ac2.0" configVersion="7365de853b1b59489bd46bca9bd95cc000000000"/>
+		<Metadata name="Language.Русский" id="0d99067c-696a-4b8b-a4ed-8b9f8e13accf" configVersion="0325fc0fcf2246439584b3f6b3bbe8a200000000"/>
+	</ConfigVersions>
+</ConfigDumpInfo>

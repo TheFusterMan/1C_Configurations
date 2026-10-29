@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.21">
+	<ConfigVersions>
+		<Metadata name="AccountingRegister.ВзаиморасчетыСКлиентами" id="081a8b8e-8735-46af-bf9d-2418b469aba1" configVersion="eaae02405013ea448717748c97f0607500000000">
+			<Metadata name="AccountingRegister.ВзаиморасчетыСКлиентами.Resource.Сумма" id="e2ac2ce2-fb82-4b48-9be8-ac6397294269"/>
+		</Metadata>
+		<Metadata name="Catalog.Договоры" id="ea4a3b48-91c5-42fa-bb6c-f0c99d26fb36" configVersion="bb42e411bc5d014a9b2776e98ba2b17c00000000"/>
+		<Metadata name="Catalog.Контрагенты" id="8b28664b-1e3b-4b92-ad01-a94ed4dbd197" configVersion="734e9d9e568bfb488a2d2c4487e7749f00000000"/>
+		<Metadata name="ChartOfAccounts.Основной" id="fb1b409e-8e74-4a2d-bd3b-0913772ed7d1" configVersion="a08c0a55830edd418a3b17d9116f9d6400000000"/>
+		<Metadata name="ChartOfAccounts.Основной.Predefined" id="fb1b409e-8e74-4a2d-bd3b-0913772ed7d1.9" configVersion="89c39857375c134298f13cc1bbc70ea900000000"/>
+		<Metadata name="ChartOfCharacteristicTypes.ВидыСубконтоВзаиморасчетыСКлиентами" id="296dbd06-e539-4932-81ae-f09dcb0ef900" configVersion="3bf92bfe2e592346ad6825eba0c7ab3100000000"/>
+		<Metadata name="ChartOfCharacteristicTypes.ВидыСубконтоВзаиморасчетыСКлиентами.Predefined" id="296dbd06-e539-4932-81ae-f09dcb0ef900.7" configVersion="537b113d31d8b54283b123ff8ebb8ab000000000"/>
+		<Metadata name="Configuration.Конфигурация" id="91572f31-5cc4-4920-ae23-870bac61f412" configVersion="daa8605859b4484baf29e2c3ee928aff00000000"/>
+		<Metadata name="Configuration.Конфигурация.MainSectionCommandInterface" id="cc6dd931-451d-4d07-b65a-a1639419045a.9" configVersion="a8a1538bdc009748a1e549558d74080b00000000"/>
+		<Metadata name="Document.ПриходДенег" id="2f90f40c-9c83-4d1f-80d7-94d000fb2d55" configVersion="1a2eda5035be26429a975b2a0771024000000000">
+			<Metadata name="Document.ПриходДенег.TabularSection.Состав.Attribute.Контрагент" id="37f69508-9765-448e-b661-f5854cbcd543"/>
+			<Metadata name="Document.ПриходДенег.TabularSection.Состав.Attribute.Сумма" id="5b76e3aa-8001-4913-b206-b2dcd3c28005"/>
+			<Metadata name="Document.ПриходДенег.TabularSection.Состав" id="7fdfc38c-7bfe-468e-8a0b-7018298bf79d"/>
+		</Metadata>
+		<Metadata name="Document.ПриходДенег.ObjectModule" id="2f90f40c-9c83-4d1f-80d7-94d000fb2d55.0" configVersion="f0c6eb8de123104c98e918bac029805800000000"/>
+		<Metadata name="Document.РасходнаяНакладная" id="1a61bdf3-665f-46e2-a5c8-aabd368ccb0c" configVersion="26138265d3566f4e8d7028ca2932b5ec00000000">
+			<Metadata name="Document.РасходнаяНакладная.Attribute.Покупатель" id="701fedfe-952f-42d4-a47e-27e18f4de08c"/>
+			<Metadata name="Document.РасходнаяНакладная.Attribute.Сумма" id="ac9e9b7a-6ebc-415b-9695-f35c9b535dd4"/>
+			<Metadata name="Document.РасходнаяНакладная.Attribute.Договор" id="f8fd4baa-5e83-410f-a1fa-0e6fa135f6a7"/>
+		</Metadata>
+		<Metadata name="Document.РасходнаяНакладная.Form.ФормаДокумента" id="b035971b-ec72-4377-8ba8-0c379b50737f" configVersion="64896836241da2418694c02ff9f1d1aa00000000"/>
+		<Metadata name="Document.РасходнаяНакладная.Form.ФормаДокумента.Form" id="b035971b-ec72-4377-8ba8-0c379b50737f.0" configVersion="65c0dbccb970bc4c907e06e35b468c8c00000000"/>
+		<Metadata name="Document.РасходнаяНакладная.ObjectModule" id="1a61bdf3-665f-46e2-a5c8-aabd368ccb0c.0" configVersion="80967474fe6ec1499ec10a6401a8f9bd00000000"/>
+		<Metadata name="Language.Русский" id="2afb7b67-ee52-4586-8c47-46755957ff5a" configVersion="9b2543f085f8f7439198d224ed87d8d900000000"/>
+		<Metadata name="Report.АнализОплат" id="87cf28b6-6cf0-4664-a914-33d72aaaf420" configVersion="86ccf24c8eabcd42b60a00d85d92284000000000"/>
+		<Metadata name="Report.АнализОплат.Template.ОсновнаяСхемаКомпоновкиДанных" id="29cd48b4-413e-4c55-a2db-58928233a7d4" configVersion="4f53b6604b6c514c8399ccf712a3b83f00000000"/>
+		<Metadata name="Report.АнализОплат.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="29cd48b4-413e-4c55-a2db-58928233a7d4.0" configVersion="eb4b8d3adbaa7d4e83849634015fb2e500000000"/>
+	</ConfigVersions>
+</ConfigDumpInfo>
